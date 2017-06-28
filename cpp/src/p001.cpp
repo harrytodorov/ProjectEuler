@@ -20,7 +20,6 @@ void multiples_of_3_and_5_below_n(const int n, std::set<int> &ra) {
 
         // because set only can contain unique elements, we don't have to double check
         // if the element we're inserting is already contained in the resulting set
-
         ra.insert(p3);
 
         // add p5 to the resulting set only if its less than n
@@ -40,7 +39,7 @@ int main() {
     int res10 = std::accumulate(res.begin(), res.end(), (int) 0);
     printf("Sum of multiples of 3 and 5 below 10: %d\n", res10);
 
-    // clear the vector holding the result
+    // clear the set holding the result
     res.clear();
 
     // test for input of 1000
