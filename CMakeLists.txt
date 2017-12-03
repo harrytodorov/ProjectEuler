@@ -15,6 +15,11 @@ add_executable (p002 ${SOURCE_FILES_P002})
 set (SOURCE_FILES_P003 cpp/src/p003.cpp cpp/src/utilities.h)
 add_executable (p003 ${SOURCE_FILES_P003})
 
+# set the needed source files for problem 4
+set (SOURCE_FILES_P004 cpp/src/p004.cpp )
+add_executable (p004 ${SOURCE_FILES_P004})
+
 # set needed source files for problem 61
 set (SOURCE_FILES_P061 cpp/src/p061.cpp)
 add_executable (p061 ${SOURCE_FILES_P061})
+
