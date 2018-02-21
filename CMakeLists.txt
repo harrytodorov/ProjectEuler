@@ -23,3 +23,10 @@ add_executable (p004 ${SOURCE_FILES_P004})
 set (SOURCE_FILES_P061 cpp/src/p061.cpp)
 add_executable (p061 ${SOURCE_FILES_P061})
 
+# set needed source files for problem 65
+set (SOURCE_FILES_P065 cpp/src/p065.cpp)
+add_executable (p065 ${SOURCE_FILES_P065})
+
+# Set needed source files for a test build.
+set (SOURCE_FILES_TEST_FOR_FUN cpp/test_cpp.cpp)
+add_executable(test_for_fun ${SOURCE_FILES_TEST_FOR_FUN})
