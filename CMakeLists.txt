@@ -10,6 +10,9 @@ set (SOLVED_PROBLEMS cpp/src/p001.cpp
 					 cpp/src/p004.cpp
 )
 
+# Holding utilities files
+set (UTILITIES cpp/src/utilities.h)
+
 # Main driver program
 set (MAIN_PROGRAM cpp/src/ProjectEulerMain.cpp)
 add_executable (ProjectEuler ${MAIN_PROGRAM})
