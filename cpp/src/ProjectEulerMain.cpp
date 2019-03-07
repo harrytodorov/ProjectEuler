@@ -1,4 +1,4 @@
-// Author: Haralambi Todorov
+// Author: Haralambi Todorov <harrytodorov@gmail.com>
 // Created on 6.03.2019
 
 #include <chrono>
@@ -16,6 +16,4 @@ int main(int argc, char** argv) {
 	std::cout << "Result of problem 001: " << p001_result << std::endl;
 	auto ellapsed_milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(e001-s001);
 	std::cout << "Solved in " << ellapsed_milliseconds.count() << " milliseconds." << std::endl;
-
-
 }
