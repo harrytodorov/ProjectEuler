@@ -1,6 +1,5 @@
-//
-// Created by Haralambi Todorov on 28/06/2017.
-//
+// Author: Haralambi Todorov <harrytodorov@gmail.com>
+// Created on 28.06.2017
 
 #include <iostream>
 #include <cassert>

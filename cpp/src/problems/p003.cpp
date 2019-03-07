@@ -1,6 +1,5 @@
-//
-// Created by Haralambi Todorov on 17/08/2017.
-//
+// Author: Haralambi Todorov <harrytodorov@gmail.com>
+// Created on 17.08.2017
 
 #include <iostream>
 #include <vector>

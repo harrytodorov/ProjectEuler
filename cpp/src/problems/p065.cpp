@@ -1,18 +1,4 @@
-// Copyright (c) 2018, University of Freiburg.
 // Author: Haralambi Todorov <harrytodorov@gmail.com>
-
-/// Convergents of e
-/// e = [2; 1,2,1, 1,4,1, 1,6,1 , ... , 1,2k,1, ...].
-/// The first ten terms in the sequence of convergents for e are:
-/// 2
-/// 2 + 1/1 = 3
-/// 2 + 1/(1 + (1/2)) = 8/3
-/// 2 + 1/(1 + 1/(2 + 1/1)) = 11/4
-/// ...
-/// 10th: ... = 1457/536
-/// The sum of digits in the numerator of the 10th convergent is 1+4+5+7=17.
-/// Find the sum of digits in the numerator of the 100th convergent of the
-/// continued fraction for e.
 
 #include <cstdint>
 #include <cassert>
